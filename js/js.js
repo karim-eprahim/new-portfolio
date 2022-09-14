@@ -21,8 +21,7 @@ ptn.onclick=function(){
 for(let i=0; i<round.length;i++){
     round[i].onclick=()=>{
         nav.classList.toggle("open")
-                ptn.classList.remove("close")
-                console.log("karim")
+        ptn.classList.remove("close")
     }
 }
 
